@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Module 2</title>
 
-You can use the [editor on GitHub](https://github.com/crisefst/coursera-test/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <!--CSS Link-->
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
 
-### Markdown
+</head>
+<body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	<div class="menu">
+		<h1>Our Menu</h1>
+	</div>
 
-```markdown
-Syntax highlighted code block
+	<div class="box" id="box1">
+		<section id="sec1">
+			<h2 class="h2" id="chicken">Chicken</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet fermentum nulla, eget pellentesque diam. Proin mattis nisi ac quam semper tincidunt. Nam eget sem sit amet nibh dictum maximus. Phasellus suscipit est ut eros laoreet gravida. Aliquam erat volutpat. Etiam luctus est non gravida bibendum. Sed quis tincidunt lectus.
+			</p>
+		</section>	
+	</div>
 
-# Header 1
-## Header 2
-### Header 3
+	<div class="box" id="box2">
+		<section id="sec2">
+			<h2 class="h2" id="beef">Beef</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet fermentum nulla, eget pellentesque diam. Proin mattis nisi ac quam semper tincidunt. Nam eget sem sit amet nibh dictum maximus. Phasellus suscipit est ut eros laoreet gravida. Aliquam erat volutpat. Etiam luctus est non gravida bibendum. Sed quis tincidunt lectus.
+			</p>
+		</section>	
+	</div>
 
-- Bulleted
-- List
+	<div class="box" id="box3">
+		<section id="sec3">
+			<h2 class="h2" id="sushi">Sushi</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet fermentum nulla, eget pellentesque diam. Proin mattis nisi ac quam semper tincidunt. Nam eget sem sit amet nibh dictum maximus. Phasellus suscipit est ut eros laoreet gravida. Aliquam erat volutpat. Etiam luctus est non gravida bibendum. Sed quis tincidunt lectus.
+			</p>
+		</section>	
+	</div>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/crisefst/coursera-test/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
