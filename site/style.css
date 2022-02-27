@@ -119,3 +119,53 @@ h3:hover , p:hover{
 p{
 	padding: 0% 4% 2% 4%;
 }
+
+
+#navmb , .offcanvas-body{
+	visibility: hidden;
+}
+#navlg{
+	visibility: visible;
+}
+
+@media (max-width: 768px){
+
+	#navmb{
+		background-color: whitesmoke;
+	}
+
+	#navmb , .offcanvas-body{
+		visibility: visible;
+		color: white;
+	}
+	#navmb div{
+		height: 100%;
+		color: white;
+	}
+
+	#navmb div ul li a{
+		color: white;
+	}
+	nav{
+		background-color: #2a0915 !important;
+		height: 11vh;
+	}
+	nav div{
+		background-color: #2a0915;
+		height: 10vh;
+	}
+	#navlg{
+		visibility: hidden;
+	}
+	.navbar-light .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+  }
+  .navbar-light .navbar-toggler-icon{
+  	border: whitesmoke dotted 5px;
+  	border-radius: 7px;
+  	background-color: whitesmoke;
+  }
+  .offcanvas-header .btn-close{
+  	background-color: whitesmoke;
+  }
+}
