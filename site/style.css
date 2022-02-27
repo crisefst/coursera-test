@@ -1,120 +1,121 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'Dongle', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
-}
-.menu{
-	font-size: 15px;
-	text-align: center;
-	padding: 5%;
-	margin: 1%;
+	box-sizing: border-box;
 }
 
-.box{
-	width: 29%;
-	border: 2px solid black;
-	margin: 1%;
-	padding: 2% 1% 2% 1%;
-	background-color: #999999;
-	float: left;
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: monospace,'Oxygen', sans-serif;
+}
+
+#menu{
+	text-align: center;
+	text-shadow: 1px 1px 1px #1d8153;
+	padding: 3%;
+}
+
+h2{
+	font-size: 2em;
+	font-family: monospace;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+h2:hover{
+	color: #1d8153;
+	text-decoration: underline;
+	font-size: 2.1em;
+	transition: ease-in .5s;
+	cursor: pointer;
+}
+
+#sec1{
 	position: relative;
 }
+#span1{
+	color: white;
+	font-family: monospace;
+}
 
-.h2{
-	border: 1.5px solid black;
-	display: inline-block;
-	padding: 1% 10% 1% 10%;
-	position:absolute;
-	top: 0;
+
+
+#span2{
+	position: absolute;
 	right: 0;
+	padding: 2%;
+	color: white;
+	margin-top: 2%;
+}
+
+nav{
+	background-color: #2a0915 !important;
+	height: 11vh;
+}
+
+nav div{
+	background-color: #2a0915;
+	height: 10vh;
+}
+
+a i{
+	padding:2% ;
+	margin-left: 7%;
+	color: white;
+}
+
+i , #span1{
+	vertical-align: middle;
+}
+
+.anchor{
+	align-content: center;
+	align-items: baseline;
 	font-size: 1.2em;
+	font-weight: bold;
+	width: 7%;
+	padding: 1%;
+	margin-right: 7%;
+	margin-left: 1%;
+	font-family: monospace;
+	text-decoration: none;
+	color: white;
+}
+
+.anchor:hover{
+	color: #1d8153;
+}
+ #span1:hover, i:hover{
+ 	color: #1d8153;
+}
+
+h1{
+	text-align: center;
+	padding: 2%;
+}
+
+h3{
+	text-align: center;
+	margin: 1%;
+	padding: 2%;
+}
+
+h3:hover , p:hover{
+	color: darkred;
+	transition: ease-in .7sec;
+}
+
+#span3{
+	color: #1d8153 ;
+}
+
+#sec1{
+	background-color: #e1af1b;
 }
 
 p{
-	display: inline-block;
-	position: relative;
-	padding: 1%;
-	margin-top: 5%;
-}
-
-#chicken{
-	background-color: #d59898;
-}
-
-#beef{
-	background-color: #c14543;
-	color: white;
-}
-#sushi{
-	background-color: #e5d198;
-}
-
-
-/*Tablet View*/
-
-@media (max-width: 991px) and (min-width: 768px){
-
-	body{
-		width: 100%;
-	}
-
-	.menu{
-	font-size: 1em;
-	text-align: center;
-	padding: 5%;
-	margin: 1%;
-}
-
-	.box{
-		padding: 3%;
-		margin: 5%;
-	}
-
-	#box1{
-		width: 40%;
-		display: inline-block;
-		float: left;
-		clear: left;
-	}
-
-	#box2{
-		width: 40%;
-		float: right;
-		clear: right;
-		display: inline-block;
-	}
-
-	#box3{
-		float: left;
-		clear: both;
-		display: block;
-		width: 90%;
-		margin-top: -1%;
-	}
-
-}
-
-@media (max-width: 767px){
-
-    .box{
-		padding: 6%;
-		margin: 3% 10% 3% 10%;
-	}
-
-	#box1{
-		width: 80%;
-		display: block;
-	}
-
-	#box2{
-		width: 80%;
-		display: block;
-	}
-
-	#box3{
-		width: 80%;
-	}
-
+	padding: 0% 4% 2% 4%;
 }
