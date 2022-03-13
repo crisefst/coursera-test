@@ -19,14 +19,6 @@ body, html{
 	position: relative;
 	margin: auto auto;
 }
-/*#outline1{
-	width: 50px;
-	height: 700px;
-	background-color: black ;
-	position: absolute;
-	bottom: 0;
-	left: 375px;
-}*/
 #outline1{
 	width: 50px;
 	height: 700px;
@@ -79,6 +71,7 @@ body, html{
 	position: absolute;
 	bottom: 22.2%;
 	right: 30.6%;
+	z-index: 1;
 
 }
 
@@ -104,12 +97,12 @@ body, html{
 	left: 30%;
 }
 #brown3{
-	width: 50px;
+	width: 54px;
 	height: 492px;
 	background-color: #35230f ;
 	position: absolute;
 	bottom: 22.2%;
-	right: 34.3%;
+	right: 34.2%;
 
 }
 
@@ -160,7 +153,7 @@ body, html{
 #bandana1{
 	background-color: #1735a5;
 	width: 400px;
-	height: 50px;
+	height: 52px;
 	position: absolute;
 	top: 4.3%;
 	left: 36%;
@@ -168,7 +161,7 @@ body, html{
 #bandana2{
 	background-color: #1735a5;
 	width: 500px;
-	height: 50px;
+	height: 52px;
 	position: absolute;
 	top: 9.39%;
 	left: 32.2%;
@@ -176,7 +169,7 @@ body, html{
 #bandana3{
 	background-color: #1636a5;
 	width: 550px;
-	height: 50px;
+	height: 52px;
 	position: absolute;
 	top: 14.77%;
 	left: 28.5%;
@@ -257,15 +250,15 @@ body, html{
 	height: 50px;
 	position: absolute;
 	bottom: 37.17%;
-	right: 34.2%;
+	right: 34.1%;
 }
 #sq3{
 	background-color: #35230f;
 	width:50px;
-	height: 50px;
+	height: 52px;
 	position: absolute;
-	bottom: 42.6%;
-	left: 38.9%;
+	top: 52.6%;
+	left: 38.7%;
 }
 
 /*EyeBrows*/
