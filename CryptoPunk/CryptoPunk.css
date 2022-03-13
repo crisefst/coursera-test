@@ -11,6 +11,8 @@ body, html{
 /*Outlining*/
 
 #box{
+	background-size: contain;
+	display: block;
 	background-color: #648596;
 	width: 1343px;
 	height: 935px;
